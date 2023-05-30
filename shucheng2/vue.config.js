@@ -2,10 +2,6 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true,
   lintOnSave:false,
-  dev:{
-	assetsSubDirectory:'static',
-	assetsPublicPath:'./'
-  },
   devServer:{
   	  proxy:{
   		  '/shu':{
